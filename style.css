@@ -78,8 +78,13 @@ button{
 }
 
 .output{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
     margin: 0;
     padding: 0;
+    width: 350px;
     display: None;
     line-height: 1.5em;
 }
