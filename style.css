@@ -78,14 +78,15 @@ button{
 }
 
 .output{
-    flex-direction: row;
+
+    display: flex;
     justify-content: center;
-    align-items: top;
-    margin: 0;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
     padding: 0;
-    width: 350px;
+    width: 300px;
     display: None;
     line-height: 1.5em;
 }
-
 
