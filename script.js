@@ -30,9 +30,9 @@ button.addEventListener("click", function(){
         lty_output.textContent = `You have missed ${lty} hours yet`;
 
         if (lr>0){
-            lr_output.textContent = `You can miss ${lr} more hours to maintain ${rp}% attendance`;    
+            lr_output.textContent = `You can miss ${lr} more hours to maintain ${rp}% attendance till the end semester exams`;    
         }else if(lr===0){
-            lr_output.textContent = `You need to attend all the classes to maintain ${rp}% attendance`;        
+            lr_output.textContent = `You need to attend all the classes to maintain ${rp}% attendance till the end semester exams`;        
         }else{
             lr_output.textContent = `You can't maintain ${rp}% attendance even if you attend all classes`;
         };
