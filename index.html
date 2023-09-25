@@ -9,48 +9,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     
-    <title>Attendance Calculator</title>
+    <title>Bunk Calculator</title>
 </head>
 <body>
 
     <div class="container">
-        <h1>Bunk Calculator</h1>
+        <h1>Attendance Calculator</h1>
         <hr>
 
-    <div class="user-form">
-        <div class="user-input">
-            <label for="classes-per-week">Hours Per Week</label>
-            <input type="number" class="input" id="classes-per-week" for="cpw" value="30" min="1" style="width: 168px;">
-        </div>
-    
-        <div class="user-input">
-            <label for="academic-weeks">Academic Weeks</label>
-            <input type="number" class="input" id="academic-weeks" for="aws" value="15" min="1" style="width:158px;">
-        </div>
-    
-        <div class="user-input">    
-            <label for="current-attendance-percentage">Current Attendance %</label>
-            <input type="number" class="input" id="current-attendance-percentage" min="1" style="width:114px;">
-        </div>
+        <div class="user-form">
+            <div class="user-input">
+                <label for="classes-per-week">Hours Per Week</label>
+                <input type="number" class="input" id="classes-per-week" for="cpw" value="30" min="1" style="width: 168px;">
+            </div>
+        
+            <div class="user-input">
+                <label for="academic-weeks">Academic Weeks</label>
+                <input type="number" class="input" id="academic-weeks" for="aws" value="15" min="1" style="width:158px;">
+            </div>
+        
+            <div class="user-input">    
+                <label for="current-attendance-percentage">Current Attendance %</label>
+                <input type="number" class="input" id="current-attendance-percentage" min="1" style="width:114px;">
+            </div>
 
-        <div class="user-input">
-            <label for="classes-conducted-yet">Hours Conducted Yet</label>
-            <input type="number" class="input" id="classes-conducted-yet" min="1" width="100px" style="width:118px;">
-        </div>
+            <div class="user-input">
+                <label for="classes-conducted-yet">Hours Conducted Yet</label>
+                <input type="number" class="input" id="classes-conducted-yet" min="1" width="100px" style="width:118px;">
+            </div>
 
-        <div class="user-input">
-            <label for="required-percentage">Required Percentage</label>
-            <input type="number" class="input" id="required-percentage" for="rp" min="1" style="width:123px;">
+            <div class="user-input">
+                <label for="required-percentage">Required Percentage</label>
+                <input type="number" class="input" id="required-percentage" for="rp" min="1" style="width:123px;">
+            </div>
         </div>
-    </div>
+        
         <button id="calculate-button">Calculate</button>
         
         <p></p>
-        
-        <p class="output" id="lty"></p>
-
-        <p class="output" id="lr"></p>
-    
+        <center>
+            <p class="output" id="lty"></p>
+            <p class="output" id="lr"></p>
+        </center>
     </div>    
 </body>
 <script src="script.js"></script>
