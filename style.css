@@ -90,3 +90,7 @@ button{
     line-height: 1.5em;
 }
 
+.output p{    
+    text-align: center;
+}
+
