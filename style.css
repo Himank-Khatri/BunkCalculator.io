@@ -66,6 +66,11 @@ input{
     border-bottom-right-radius: 5px;
 }
 
+input:focus{
+    outline: 2px #4b4b4b solid;
+    outline-offset: -1px;
+}   
+
 button{
     margin: 25px 0px 25px 0px;
     font-size: 1.1em;
