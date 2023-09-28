@@ -26,19 +26,20 @@ button.addEventListener("click", function(){
     const lr = la-lty;
 
 
-    if((tc>=0) && (rp<=100) && (ccy>=0) && (cap>=0)){
+    if((tc>=0) && (rp<=100) && (ccy>=0) && (cap>=0) && cap && ccy && rp){
         lty_output.textContent = `You have missed ${lty} hours yet`;
 
         if (lr>0){
-            lr_output.textContent = `You can miss ${lr} more hours to maintain ${rp}% attendance till the end semester exams`;    
+            lr_output.textContent = `You can miss ${lr} more hours to maintain ${rp}% attendance`;    
         }else if(lr===0){
-            lr_output.textContent = `You need to attend all the classes to maintain ${rp}% attendance till the end semester exams`;        
+            lr_output.textContent = `You need to attend all the classes to maintain ${rp}% attendance`;        
         }else{
             lr_output.textContent = `You can't maintain ${rp}% attendance even if you attend all classes`;
         };
 
     }else{
         lty_output.textContent = "Invalid Input";
+        lr_output.textContent = ""
     };
 
     for(i=0; i<output.length; i++){
