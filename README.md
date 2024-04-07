@@ -1,2 +1,2 @@
-# leavescalculator.io
-https://himank-khatri.github.io/attendanceplanner/
+# attendance-planner.io
+https://himank-khatri.github.io/attendance-planner/
